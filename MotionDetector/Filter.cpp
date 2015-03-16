@@ -20,9 +20,6 @@ using namespace std;
 
 void sse_optim_test()
 {
-	//char* pDDDx = (char*)::malloc(100);
-	//char* pDDD = new char[111];
-	//return;
 	queue<__m128i*> row_map;
 	_declspec (align(16))DWORD IntegralSumArray[SUM_ARRAY_H][SUM_ARRAY_W]; 
 	const _declspec (align(16))WORD WordMask[] = {0xffff,0,0,0,0,0,0,0};
@@ -45,19 +42,8 @@ void sse_optim_test()
 	const __m128i zerro_byte_string_128 = _mm_setzero_si128();
 
 	__m128i* pDataSrc128;
-	//	= reinterpret_cast<__m128i*>(&string00[0]);
-	//word_row_lo = _mm_unpacklo_epi8((__m128i)*pDataSrc128,zerro_byte_string_128);
-	//word_row_hi = _mm_unpackhi_epi8((__m128i)*pDataSrc128,zerro_byte_string_128);
-
-	//dword_row_lo_0 = _mm_unpacklo_epi16(word_row_lo,zerro_byte_string_128);
-	//dword_row_lo_1 = _mm_unpackhi_epi16(word_row_lo,zerro_byte_string_128);
-
-	//dword_row_hi_0 = _mm_unpacklo_epi16(word_row_hi,zerro_byte_string_128);
-	//dword_row_hi_1 = _mm_unpackhi_epi16(word_row_hi,zerro_byte_string_128);
 
 	__m128i integer_sun_tmp = _mm_setzero_si128();
-	//const __m64* pTmp64 = reinterpret_cast<const __m64*>(&WordMask[0]);
-	//__m64 word_mask = *pTmp64;
 
 	_declspec (align(16))unsigned int A_prev, D_prev;
 	int h,w;
