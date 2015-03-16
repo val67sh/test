@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E737AD2E-FF28-4363-A9D2-B4694A004014}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MotionDetector.vsmdi = MotionDetector.vsmdi
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotionDetector", "MotionDetector\MotionDetector.vcxproj", "{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject_00", "UML_DIAGRAMM\ModelingProject_00\ModelingProject_00.modelproj", "{32778843-07B6-4B63-A919-841FCE872CFE}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MotionDetector.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Mixed Platforms.Deploy.0 = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|Win32.Build.0 = Debug|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|x64.ActiveCfg = Debug|x64
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Debug|x64.Build.0 = Debug|x64
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Mixed Platforms.Deploy.0 = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Win32.ActiveCfg = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|Win32.Build.0 = Release|Win32
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|x64.ActiveCfg = Release|x64
+		{6E0006B0-CFB6-4A9A-A71C-57F3FF38DE1D}.Release|x64.Build.0 = Release|x64
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|Win32.ActiveCfg = Release|Any CPU
+		{32778843-07B6-4B63-A919-841FCE872CFE}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
